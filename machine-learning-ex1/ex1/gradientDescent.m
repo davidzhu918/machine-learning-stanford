@@ -20,7 +20,6 @@ for iter = 1:num_iters
     %
     
     new_theta = zeros(n, 1);
-    
     for j = 1:n
         sum = 0;
         for i = 1:m
